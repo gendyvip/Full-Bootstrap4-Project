@@ -1,0 +1,105 @@
+.jumbotron{
+    background-color: #29253b;
+    color: aliceblue;
+    padding: 30px;
+}
+.row-header{
+    margin-top: 50px;
+}
+.content{
+    margin: 50px auto;
+}
+.footer{
+    background-color: #29253b;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 0px 0px ;
+}
+.copyright{
+    background-color: #0e0b1a;
+    padding: 15px 0px 0px 0px;
+    width: 100%;
+    margin: auto;
+    right: 0;
+}
+.index-section,.aboutus-section{
+    margin-bottom: 100px;
+}
+.contactus-section{
+    padding-bottom: 50px;
+}
+.navbar-dark{
+    background-color: #0e0b1a;
+}
+nav{
+    margin: auto;
+}
+.socialmedia{
+margin-bottom: 5px;
+}
+.skype-btn{
+    background-color: #00aff0;
+}
+.btn-reserve1{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.btn-reserve2,.font-bold{
+    font-weight: 500;
+}
+.text-call {
+    color:#0e0b1a;
+}
+.text-email{
+    color:#923528
+}
+.tab-content{
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+.table-responsive{
+  border: 1px solid #ddd;
+}
+.nav-link,.nav-text{
+    font-weight: 400;
+}
+.site-dark{
+    background-color:#0e0b1a ;
+}
+.site-lite{
+background-color: #29253b;
+}
+.modal-header{
+    border-bottom-color: #ffc107;
+}
+.carousel-item{
+    height: 300px;
+}
+@media (min-width: 576px) {
+    .carousel {
+      background-color: #0e0b1a;
+    }
+  } 
+.carousel-item img{
+   min-height: 300px;
+}
+.carousel-caption{
+    top:0;
+    padding-left: 15em;
+}
+.btn-check:checked {
+    background-color: green !;
+}
+.btn-cancel{
+    background-color: #c0392b;
+}
+#carouselControls{
+    right:0;
+    bottom: 0;
+    position: absolute;
+    margin-right:4px;
+    margin-bottom:4px ;
+}

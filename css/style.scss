@@ -1,0 +1,22 @@
+$sitedark:#0e0b1a;
+$sitelite:#29253b;
+$carousel-item-height:300px;
+
+@mixin zero-margin($p-u-d:0px,$p-l-r:0px){
+    margin:0 auto;
+    padding: $p-u-d $p-l-r;
+}
+.jumbotron{
+    background-color: $sitelite;
+    color: aliceblue;
+   @include zero-margin (30px,30px)
+}
+.carousel{
+   background-color: $sitedark;
+   .carousel-item{
+    height: $carousel-item-height;
+    img{
+        min-height:$carousel-item-height;;
+    }
+   }
+}
